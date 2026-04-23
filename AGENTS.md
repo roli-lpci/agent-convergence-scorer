@@ -121,10 +121,22 @@ Any PR must:
 
 ## Trust
 
-- Sealed with [hermes-seal](https://github.com/roli-lpci/hermes-seal) v1. Verify with `hermes-seal verify .`.
+- Staged `hermes-seal` v1 manifest at `.hermes-seal.yaml`. Signature is granted out-of-band by the Hermes Labs internal sealing toolchain.
 - SBOM at `sbom.cdx.json` (CycloneDX 1.5).
 - Zero runtime deps by design — the SBOM lists only the package itself.
 
 ## Origin
 
 Extracted from a prototype built during the Hermes Labs Cascade Hackathon on 2026-04-22. Full experiment writeup is in the Hermes internal research corpus; the public summary is in the [CHANGELOG](CHANGELOG.md#010--2026-04-22).
+
+## About Hermes Labs
+
+[Hermes Labs](https://hermes-labs.ai) builds AI audit infrastructure for enterprise AI systems — EU AI Act, ISO 42001, agent-level risk. We open-source the tools we use internally. Everything is MIT, fully free, no SaaS tier. Audit work is paid; the code is not.
+
+Companion OSS to consider pairing with this scorer:
+- **[lintlang](https://github.com/roli-lpci/lintlang)** — static linter for agent configs
+- **[hermes-jailbench](https://github.com/roli-lpci/hermes-jailbench)** — jailbreak regression benchmark
+- **[little-canary](https://github.com/roli-lpci/little-canary)** — prompt-injection detection
+- **[claude-router](https://github.com/roli-lpci/claude-router)** — model-tier + scaffold router
+
+Full stack listed in the repo README.

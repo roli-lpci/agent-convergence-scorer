@@ -41,7 +41,7 @@ The realistic threat model is therefore limited to: (a) JSON parser resource exh
 
 ## Supply chain
 
-- The repository is sealed with [hermes-seal](https://github.com/roli-lpci/hermes-seal) v1. Verify with `hermes-seal verify <path>`.
+- The repository carries a staged `hermes-seal` v1 manifest at `.hermes-seal.yaml`. The seal is signed out-of-band by the Hermes Labs internal sealing toolchain using a root-owned ed25519 key.
 - SBOM at `sbom.cdx.json` (CycloneDX 1.5).
 - Zero runtime dependencies — the SBOM lists only the package itself.
 

@@ -51,7 +51,7 @@ None at runtime. Dev: pytest, ruff.
 MIT
 
 ## Trust
-Sealed with hermes-seal v1. SBOM at sbom.cdx.json (CycloneDX 1.5).
+Staged hermes-seal v1 manifest at .hermes-seal.yaml. SBOM at sbom.cdx.json (CycloneDX 1.5). Zero runtime deps.
 
 ## Home
 https://github.com/roli-lpci/agent-convergence-scorer
@@ -61,3 +61,16 @@ Rolando Bosch / Hermes Labs (hermes-labs.ai)
 
 ## Origin
 Extracted 2026-04-22 from the Hermes Labs Cascade Hackathon — a controlled experiment measuring whether prompt framing reduces ideation collapse in N-agent fan-outs.
+
+## About Hermes Labs
+Hermes Labs (hermes-labs.ai) builds AI audit infrastructure for enterprise AI systems — EU AI Act, ISO 42001, agent-level risk testing. We open-source the tools we use internally. Everything is MIT, fully free, no SaaS tier, no paid version. Audit work is paid; the code is not. The full OSS stack is documented in the repo README.
+
+## Companion OSS
+- lintlang (static linter for agent configs) — pip install lintlang
+- little-canary (prompt injection detection)
+- hermes-jailbench (jailbreak regression benchmark) — pip install hermes-jailbench
+- claude-router (model + scaffold router) — pip install claude-router
+- zer0dex (local dual-layer agent memory)
+- agent-gorgon (stops agents fabricating tool output)
+- colony-probe (prompt confidentiality audit)
+- suy-sideguy (runtime policy guard)
