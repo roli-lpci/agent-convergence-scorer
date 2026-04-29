@@ -149,7 +149,7 @@ MIT — see [LICENSE](LICENSE).
 - **We open-source our own infrastructure.** This package, and the ones below, are the tools Hermes Labs uses internally to audit its own agents and to produce audit deliverables for customers. We don't publish demo code — we publish production code.
 - **We sell audit work, not licenses.** If you want an ANNEX-IV pack, an ISO 42001 evidence bundle, gap analysis against the EU AI Act, or agent-level red-teaming delivered as a report, that's at [hermes-labs.ai](https://hermes-labs.ai). If you just want the code to run it yourself, it's right here.
 
-**The Hermes Labs OSS stack** (public, MIT, production-grade):
+**The Hermes Labs OSS stack** (public, MIT, open-source):
 
 | Tool | What it does |
 |---|---|
