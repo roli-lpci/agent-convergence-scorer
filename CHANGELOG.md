@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
+- Pin the composite Action Python setup to the immutable v7.0.0 commit.
 - Exact-match rate now measures the fraction of matching run pairs. The
   composite score and CLI threshold no longer change when the same outputs
   arrive in a different order. This changes scores for partially matching
